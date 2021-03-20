@@ -50,5 +50,5 @@ for (i in seq.int(2, nbands)) {
 }
 
 # LDA accuracy on the number of features
-acc_df = data.frame(number = 2:nbands, accuracy = acc_vec)
+acc_df = data.frame(number = seq.int(2, nbands), accuracy = acc_vec)
 acc_df
