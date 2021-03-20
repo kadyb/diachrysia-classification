@@ -14,7 +14,7 @@ The files are available in two formats - `.csv` and `.xlsx`.
 - **UTM_code** - zone in UTM coordinate system
 - **Longitude** - east–west position in degrees
 - **Latitude** - north–south position in degrees
-- **Feature_level** - level of marking the morphological feature, where 1 means weak, 2 means strong, 3 very strong
+- **Feature_level** - level of marking the morphological feature, where 1 means weak, 2 means strong, 3 means very strong
 
 `Spectra` file contains the following columns:
  - **ID** - Individual identifier (*species*-*number*)
