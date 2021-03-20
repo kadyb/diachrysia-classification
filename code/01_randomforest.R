@@ -15,7 +15,7 @@ pred_vec = vector()
 # number of iterations
 iters = 300
 
-for (i in 1:iters) {
+for (i in seq_len(iters)) {
 
   # random split data into training (70%) and test (30%) sets
   trainIndex = sample(nrow(data), size = round(0.7 * nrow(data)))
