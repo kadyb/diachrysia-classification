@@ -21,7 +21,7 @@ for (i in seq_len(iters)) {
   trainIndex = sample(nrow(data), size = round(0.7 * nrow(data)))
   train = data[trainIndex, ]
   test = data[-trainIndex, ]
-  ID_vec = c(ID_vec, setdiff(seq(nrow(data)), trainIndex))
+  ID_vec = c(ID_vec, setdiff(seq_len(nrow(data)), trainIndex))
 
   # train model
   rf_mdl = ranger::ranger(Species ~ ., train, importance = "impurity")

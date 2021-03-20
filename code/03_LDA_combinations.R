@@ -11,7 +11,7 @@ D_vec = numeric()
 p.value_vec = numeric()
 
 # Kolmogorov–Smirnov test
-for (i in 2:ncol(data)) {
+for (i in seq.int(2, ncol(data))) {
 
   ks_test = ks.test(data[data$Species == "Diachrysia chrysitis", i],
                     data[data$Species == "Diachrysia stenochrysis", i])
@@ -38,7 +38,7 @@ brown_vec = ks_df[ks_df$scale == "Brown", "band"][seq_len(nbands)]
 glass_comb = list()
 brown_comb = list()
 
-for (i in 2:nbands) {
+for (i in seq.int(2, nbands)) {
 
   comb = combn(glass_vec, i, simplify = FALSE)
   glass_comb = c(glass_comb, comb)

@@ -11,7 +11,7 @@ D_vec = numeric()
 p.value_vec = numeric()
 
 # Kolmogorov–Smirnov test
-for (i in 2:ncol(data)) {
+for (i in seq.int(2, ncol(data))) {
 
   ks_test = ks.test(data[data$Species == "Diachrysia chrysitis", i],
                     data[data$Species == "Diachrysia stenochrysis", i])
@@ -35,10 +35,10 @@ nbands = 20
 
 acc_vec = numeric()
 
-for (i in 2:nbands) {
+for (i in seq.int(2, nbands)) {
 
   # columns selection
-  names_sel = ks_df$band[1:i]
+  names_sel = ks_df$band[seq_len(i)]
   names_sel = c("Species", names_sel)
   data_sel = data[, names(data) %in% names_sel]
 
