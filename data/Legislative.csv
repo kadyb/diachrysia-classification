@@ -1,0 +1,96 @@
+ID;Species;Sex;Year_catch;Day_catch;Locality;UTM_code;Longitude;Latitude;Feature_level
+dc-1;Diachrysia chrysitis;Male;2016;168;Kalensko;VU63;52,64;14,54;3
+dc-2;Diachrysia chrysitis;Male;2013;192;Slonsk;VU82;52,59;14,82;2
+dc-3;Diachrysia chrysitis;Male;2013;215;Slonsk;VU82;52,59;14,82;3
+dc-4;Diachrysia chrysitis;Male;2013;190;Kolomac;WV06;53,86;15,11;3
+dc-5;Diachrysia chrysitis;Male;2013;161;Slonsk;VU82;52,59;14,82;2
+dc-6;Diachrysia chrysitis;Female;2010;162;Czelin;VU54;52,74;14,38;3
+dc-7;Diachrysia chrysitis;Female;2016;160;Moczydlo;WU16;52,92;15,28;3
+dc-8;Diachrysia chrysitis;Male;2013;214;Kalensko;VU63;52,64;14,54;3
+dc-9;Diachrysia chrysitis;Male;2013;214;Kalensko;VU63;52,64;14,54;3
+dc-10;Diachrysia chrysitis;Male;2015;182;Kolomac;WV06;53,86;15,11;2
+dc-11;Diachrysia chrysitis;Male;2015;182;Kolomac;WV06;53,86;15,11;1
+dc-12;Diachrysia chrysitis;Male;2016;237;Kalensko;VU63;52,64;14,54;3
+dc-13;Diachrysia chrysitis;Male;2015;156;Moczydlo;WU16;52,92;15,28;3
+dc-14;Diachrysia chrysitis;Male;2015;169;Kolomac;WV06;53,86;15,11;3
+dc-15;Diachrysia chrysitis;Male;2014;147;Kalensko;VU63;52,64;14,54;1
+dc-16;Diachrysia chrysitis;Female;2015;182;Kolomac;WV06;53,86;15,11;3
+dc-17;Diachrysia chrysitis;Female;2011;151;Wiejce ;WU53;52,64;15,76;1
+dc-18;Diachrysia chrysitis;Male;2012;200;Swinoujscie;VV56;53,85;14,3;2
+dc-19;Diachrysia chrysitis;Male;2010;162;Czelin;VU54;52,74;14,38;3
+dc-21;Diachrysia chrysitis;Female;2016;207;Kalensko;VU63;52,64;14,54;2
+dc-22;Diachrysia chrysitis;Female;2011;147;Wiejce ;WU53;52,64;15,76;2
+dc-23;Diachrysia chrysitis;Male;2018;166;Rezerwat Gora Miedzianka;DB53;50,85;20,36;1
+dc-24;Diachrysia chrysitis;Male;2018;145;Rezerwat Gora Miedzianka;DB53;50,85;20,36;1
+dc-25;Diachrysia chrysitis;Male;2018;145;Rezerwat Gora Miedzianka;DB53;50,85;20,36;2
+dc-26;Diachrysia chrysitis;Male;2018;145;Rezerwat Gora Miedzianka;DB53;50,85;20,36;2
+dc-27;Diachrysia chrysitis;Male;2012;177;Swinoujscie;VV56;53,85;14,3;3
+dc-28;Diachrysia chrysitis;Male;2012;177;Swinoujscie;VV56;53,85;14,3;3
+dc-29;Diachrysia chrysitis;Male;2012;177;Swinoujscie;VV56;53,85;14,3;2
+dc-30;Diachrysia chrysitis;Male;2012;177;Swinoujscie;VV56;53,85;14,3;3
+dc-31;Diachrysia chrysitis;Male;2012;177;Swinoujscie;VV56;53,85;14,3;2
+dc-32;Diachrysia chrysitis;Female;2012;177;Swinoujscie;VV56;53,85;14,3;3
+dc-33;Diachrysia chrysitis;Male;2012;177;Swinoujscie;VV56;53,85;14,3;3
+dc-34;Diachrysia chrysitis;Male;2012;177;Swinoujscie;VV56;53,85;14,3;3
+dc-35;Diachrysia chrysitis;Male;2018;186;Mrzezyno;WV19;54,13;15,28;3
+dc-36;Diachrysia chrysitis;Male;2015;187;Mrzezyno;WV19;54,13;15,28;3
+dc-37;Diachrysia chrysitis;Male;2004;169;Czorsztyn;DV57;49,44;20,31;2
+dc-38;Diachrysia chrysitis;Female;2015;187;Mrzezyno;WV19;54,13;15,28;1
+dc-39;Diachrysia chrysitis;Male;2017;204;Wynohradiw;FU53;48,15;23,08;3
+dc-41;Diachrysia chrysitis;Male;1996;158;Wozniki;FC28;52,24;22,77;3
+dc-42;Diachrysia chrysitis;Male;1999;242;Wozniki;FC28;52,24;22,77;3
+dc-43;Diachrysia chrysitis;Male;2011;147;Wiejce ;WU53;52,64;15,76;3
+dc-44;Diachrysia chrysitis;Male;2011;176;Swinoujscie;VV56;53,85;14,3;3
+dc-45;Diachrysia chrysitis;Male;2017;181;Moczydlo;WU16;52,92;15,28;1
+ds-1;Diachrysia stenochrysis;Female;2013;223;Slonsk;VU82;52,59;14,82;3
+ds-2;Diachrysia stenochrysis;Male;2011;248;Kalensko;VU63;52,64;14,54;3
+ds-3;Diachrysia stenochrysis;Female;2013;223;Slonsk;VU82;52,59;14,82;3
+ds-4;Diachrysia stenochrysis;Male;2013;230;Slonsk;VU82;52,59;14,82;3
+ds-5;Diachrysia stenochrysis;Female;2013;167;Slonsk;VU82;52,59;14,82;3
+ds-6;Diachrysia stenochrysis;Female;2011;167;Wiejce;WU53;52,64;15,76;2
+ds-7;Diachrysia stenochrysis;Male;2016;166;Moczydlo;WU16;52,92;15,28;2
+ds-8;Diachrysia stenochrysis;Female;2010;172;Czelin ;VU54;52,74;14,38;3
+ds-9;Diachrysia stenochrysis;Female;2016;241;Kalensko;VU63;52,64;14,54;2
+ds-10;Diachrysia stenochrysis;Male;2010;168;Czelin ;VU54;52,74;14,38;3
+ds-11;Diachrysia stenochrysis;Male;2015;176;Kalensko;VU63;52,64;14,54;3
+ds-12;Diachrysia stenochrysis;Male;2010;168;Czelin ;VU54;52,74;14,38;2
+ds-13;Diachrysia stenochrysis;Male;2014;159;Kalensko;VU63;52,64;14,54;3
+ds-14;Diachrysia stenochrysis;Female;2016;214;Kalensko;VU63;52,64;14,54;3
+ds-15;Diachrysia stenochrysis;Female;2011;152;Wiejce;WU53;52,64;15,76;3
+ds-16;Diachrysia stenochrysis;Male;2018;149;Daleszyce;DB82;50,79;20,8;3
+ds-17;Diachrysia stenochrysis;Male;2017;211;Wynohradiw;FU53;48,15;23,08;3
+ds-18;Diachrysia stenochrysis;Male;2018;172;Rezerwat Gora Miedzianka;DB53;50,85;20,36;3
+ds-19;Diachrysia stenochrysis;Female;2018;172;Rezerwat Gora Miedzianka;DB53;50,85;20,36;2
+ds-20;Diachrysia stenochrysis;Male;2017;211;Wynohradiw;FU53;48,15;23,08;3
+ds-21;Diachrysia stenochrysis;Male;2015;177;Bagno Lawki BPN;FE00;53,29;22,54;3
+ds-22;Diachrysia stenochrysis;Male;2016;181;Rezerwat Bielinek;VU46;52,92;14,17;3
+ds-23;Diachrysia stenochrysis;Male;2005;251;Czorsztyn Zamek;DV57;49,44;20,31;3
+ds-24;Diachrysia stenochrysis;Male;2015;177;Bagno Lawki BPN;FE00;53,29;22,54;3
+ds-25;Diachrysia stenochrysis;Male;2016;246;Mrzezyno;WV19;54,13;15,28;3
+ds-26;Diachrysia stenochrysis;Female;2018;168;Winiary;DA78;50,43;20,62;3
+ds-27;Diachrysia stenochrysis;Male;2018;213;Slopiec;DB82;50,77;20,76;2
+ds-28;Diachrysia stenochrysis;Male;2018;197;Winiary;DA78;50,43;20,62;2
+ds-29;Diachrysia stenochrysis;Female;2018;197;Winiary;DA78;50,43;20,62;3
+ds-30;Diachrysia stenochrysis;Female;2018;197;Winiary;DA78;50,43;20,62;1
+ds-31;Diachrysia stenochrysis;Female;2012;183;Swinoujscie ;VV56;53,85;14,3;3
+ds-32;Diachrysia stenochrysis;Female;2012;183;Swinoujscie ;VV56;53,85;14,3;2
+ds-34;Diachrysia stenochrysis;Male;2012;183;Swinoujscie ;VV56;53,85;14,3;1
+ds-35;Diachrysia stenochrysis;Male;2012;183;Swinoujscie ;VV56;53,85;14,3;2
+ds-36;Diachrysia stenochrysis;Male;2012;183;Swinoujscie ;VV56;53,85;14,3;3
+ds-37;Diachrysia stenochrysis;Male;2012;183;Swinoujscie ;VV56;53,85;14,3;2
+ds-38;Diachrysia stenochrysis;Male;1999;150;Wozniki ;FC28;52,24;14,3;2
+ds-39;Diachrysia stenochrysis;Male;1999;223;Wozniki ;FC28;52,24;22,77;2
+ds-40;Diachrysia stenochrysis;Female;1997;160;Wozniki ;FC28;52,24;22,77;3
+ds-41;Diachrysia stenochrysis;Female;1995;187;Wozniki ;FC28;52,24;22,77;3
+ds-42;Diachrysia stenochrysis;Male;1995;151;Wozniki ;FC28;52,24;22,77;3
+ds-43;Diachrysia stenochrysis;Male;1997;147;Wozniki ;FC28;52,24;22,77;2
+ds-44;Diachrysia stenochrysis;Male;2002;148;Mirow;CB90;50,62;19,48;3
+ds-45;Diachrysia stenochrysis;Female;2006;246;Czorsztyn Zamek;DV57;49,44;20,31;2
+ds-46;Diachrysia stenochrysis;Female;2002;198;Biedrusko - Poligon;XU32;52,56;16,9;2
+ds-47;Diachrysia stenochrysis;Male;1999;230;Kepno;YS08;51,27;17,97;3
+ds-48;Diachrysia stenochrysis;Male;2010;221;Gora ad Promno;XU51;52,45;17,21;3
+ds-49;Diachrysia stenochrysis;Male;1959;230;Kortowo;DE65;53,76;20,45;2
+ds-50;Diachrysia stenochrysis;Male;2018;269;Winiary;DA78;50,43;20,62;3
+ds-51;Diachrysia stenochrysis;Male;2018;269;Winiary;DA78;50,43;20,62;3
+ds-52;Diachrysia stenochrysis;Male;2018;269;Winiary;DA78;50,43;20,62;3
+ds-53;Diachrysia stenochrysis;Male;2018;269;Winiary;DA78;50,43;20,62;3
