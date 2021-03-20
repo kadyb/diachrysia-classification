@@ -1,4 +1,4 @@
-## Diachrysia moths classification using spectroscopy and machine learning
+## Diachrysia classification using spectroscopy and machine learning
 
 ## Dataset
 There are two datasets in the `data` directory - the first containing legislative information on moths (`Legislative`), the second containing the measured spectra (`Spectra`).
