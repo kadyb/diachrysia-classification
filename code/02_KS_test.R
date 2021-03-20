@@ -26,6 +26,6 @@ ks_df$scale = ifelse(substr(ks_df$band, 1, 1) == "G", "Glass", "Brown")
 ks_df$scale = as.factor(ks_df$scale)
 ks_df[1:20, ]
 
-
+# save KS test results
 if (!dir.exists("results")) dir.create("results")
 write.csv2(ks_df, "results/ks-test.csv", row.names = FALSE)
