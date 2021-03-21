@@ -47,7 +47,13 @@ sd(acc_vec)
 imp_df = aggregate(imp_vec, by = list(names(imp_vec)), FUN = mean)
 colnames(imp_df) = c("band", "importance")
 imp_df = imp_df[order(imp_df$importance, decreasing = TRUE), ]
+imp_df$glass = ifelse(substr(imp_df$band, 1, 1) == "G", "Glass", "Brown")
+imp_df$glass = as.factor(imp_df$glass)
 imp_df[1:20, ] # print top 20 most important
+
+# save bands importance from rf
+if (!dir.exists("results")) dir.create("results")
+write.csv2(imp_df, "results/rf-importance.csv", row.names = FALSE)
 
 
 ##############################################################
