@@ -25,6 +25,10 @@ The files are available in two formats - `.csv` and `.xlsx`.
 
 ## Reproduction
 1. Open the `diachrysia-classification.Rproj` project file in [RStudio](https://rstudio.com/).
+2. Run `01_randomforest.R` to build classification models, assess the performance of classification at the general and individual level and determine the importance of spectral features.
+3. Run `02_KS_test.R` to determine importance of the spectral bands for species discrimination using Kolmogorov–Smirnov test.
+4. Run `03_LDA_best_features.R` to determine the most useful spectral bands for species classification using Linear Discriminant Analysis and D-statistic.
+5. Run `04_LDA_combinations.R` to determine the minimum set of spectral features to distinguish species with 100% accuracy.
 
 ## Results
 The code results were saved in `results` directory:
