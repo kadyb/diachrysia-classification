@@ -1,4 +1,5 @@
-## Diachrysia classification using spectroscopy and machine learning
+# Diachrysia classification
+This repository contains the data, code, and results for “*How spectral properties and machine learning can categorize twin species - based on Diachrysia genus*” article.
 
 ## Dataset
 There are two datasets in the `data` directory - the first containing legislative information on moths (`Legislative`), the second containing the measured spectra (`Spectra`).
@@ -24,3 +25,8 @@ The files are available in two formats - `.csv` and `.xlsx`.
 
 ## Reproduction
 1. Open the `diachrysia-classification.Rproj` project file in [RStudio](https://rstudio.com/).
+
+## Results
+The code results were saved in `results` directory:
+- `ks-test.csv` - importance of the spectral bands for species discrimination determined by D-statistic
+- `rf-importance.csv` - average importance of the spectral features for classification in the random forest models
