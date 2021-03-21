@@ -21,3 +21,17 @@ transform_data = function(data) {
   return(data)
 
 }
+
+classify_LDA = function(data, bands) {
+
+  bands = c("Species", bands)
+  data_sel = data[, names(data) %in% bands]
+
+  # Linear Discriminant Analysis
+  mdl = MASS::lda(data_sel[, -1], grouping = data_sel$Species, tol = 1.0e-5)
+  pred = predict(mdl, data_sel[, -1])$class
+  acc = accuracy(data_sel$Species, pred)
+
+  return(acc)
+
+}
