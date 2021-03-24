@@ -74,4 +74,5 @@ colnames(scores) = c("ID", "percentage")
 scores
 
 # rank correlation
-cor.test(scores$percentage, legislative$Feature_level, method = "kendall")
+scores = merge(scores, legislative[, c(1, 10)], by = "ID")
+cor.test(scores$percentage, scores$Feature_level, method = "kendall")
