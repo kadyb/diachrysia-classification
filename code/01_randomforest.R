@@ -6,14 +6,15 @@ source("code/utils.R")
 data_csv = read.csv2("data/Spectra.csv")
 data = transform_data(data_csv)
 
-# initialize empty vectors
-ID_vec = vector()
-acc_vec = vector()
-imp_vec = vector()
-pred_vec = vector()
-
 # number of iterations
 iters = 300
+
+# initialize empty vectors
+ID_vec = integer()
+imp_vec = double()
+pred_vec = integer()
+metrics_df = data.frame(accuracy = double(iters), sensitivity = double(iters),
+                        specificity = double(iters))
 
 for (i in seq_len(iters)) {
 
@@ -34,14 +35,15 @@ for (i in seq_len(iters)) {
   # calculate classification performance on test set
   pred = predict(rf_mdl, test)$predictions
   pred_vec = c(pred_vec, pred)
-  acc = accuracy(test$Species, pred)
-  acc_vec = c(acc_vec, acc)
+  metrics = get_metrics(test$Species, pred, "Diachrysia chrysitis",
+                        "Diachrysia stenochrysis")
+  metrics_df[i, ] = metrics
 
 }
 
-# average classification accuracy and standard deviation from all iterations
-mean(acc_vec)
-sd(acc_vec)
+# average classification performance and standard deviation from all iterations
+apply(metrics_df, MARGIN = 2, FUN = "mean")
+apply(metrics_df, MARGIN = 2, FUN = "sd")
 
 # average features importance from all iterations
 imp_df = aggregate(imp_vec, by = list(names(imp_vec)), FUN = mean)
@@ -51,7 +53,7 @@ imp_df$glass = ifelse(substr(imp_df$band, 1, 1) == "G", "Glass", "Brown")
 imp_df$glass = as.factor(imp_df$glass)
 imp_df[1:20, ] # print top 20 most important
 
-# save bands importance from rf
+# save bands importance from RF
 if (!dir.exists("results")) dir.create("results")
 write.csv2(imp_df, "results/rf-importance.csv", row.names = FALSE)
 

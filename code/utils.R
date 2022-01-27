@@ -1,5 +1,12 @@
-accuracy = function(truth, predicted) {
-  sum(truth == predicted) / length(truth)
+get_metrics = function(truth, predicted, positive, negative) {
+
+  TP = truth == predicted
+  accuracy = sum(TP) / length(TP)
+  sensitivity = sum(TP & predicted == positive) / sum(truth == positive)
+  specificity = sum(TP & predicted == negative) / sum(truth == negative)
+  ls = list(accuracy = accuracy, sensitivity = sensitivity, specificity = specificity)
+  return(ls)
+
 }
 
 transform_data = function(data) {
@@ -17,7 +24,6 @@ transform_data = function(data) {
   glass = data_SG[data$Scale == "Glass", ]
   colnames(glass)[2:1698] = paste0("G", 402:2098)
   data = cbind(brown[, 1:1698], glass[, 2:1698])
-
   return(data)
 
 }
@@ -30,8 +36,8 @@ classify_LDA = function(data, bands) {
   # Linear Discriminant Analysis
   mdl = MASS::lda(data_sel[, -1], grouping = data_sel$Species, tol = 1.0e-5)
   pred = predict(mdl, data_sel[, -1])$class
-  acc = accuracy(data_sel$Species, pred)
-
-  return(acc)
+  metrics = get_metrics(data_sel$Species, pred, "Diachrysia chrysitis",
+                        "Diachrysia stenochrysis")
+  return(metrics)
 
 }

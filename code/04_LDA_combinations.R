@@ -33,14 +33,16 @@ for (i in seq.int(2, nbands)) {
 ##############################################################
 ### LDA for bands combinations
 
-glass_acc_vec = numeric()
-brown_acc_vec = numeric()
+glass_metrics = data.frame(accuracy = double(), sensitivity = double(),
+                           specificity = double())
+brown_metrics = glass_metrics
 
 for (i in seq_along(glass_comb)) {
 
   bands_sel = glass_comb[[i]]
   acc = classify_LDA(data, bands_sel)
-  glass_acc_vec = c(glass_acc_vec, acc)
+  metrics = classify_LDA(data, bands_sel)
+  glass_metrics = rbind(glass_metrics, metrics)
 
 }
 
@@ -48,13 +50,14 @@ for (i in seq_along(brown_comb)) {
 
   bands_sel = brown_comb[[i]]
   acc = classify_LDA(data, bands_sel)
-  brown_acc_vec = c(brown_acc_vec, acc)
+  metrics = classify_LDA(data, bands_sel)
+  brown_metrics = rbind(brown_metrics, metrics)
 
 }
 
 # select those band combinations that give 100% species separation
-glass_idx = which(glass_acc_vec == 1)
+glass_idx = which(glass_metrics$accuracy == 1)
 glass_comb[glass_idx]
 
-brown_idx = which(brown_acc_vec == 1)
+brown_idx = which(brown_metrics$accuracy == 1)
 brown_comb[brown_idx]
