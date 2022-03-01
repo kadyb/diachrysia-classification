@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use data or code from this repository, please cite it as below."
+type: article
+authors:
+- family-names: "Dyba"
+  given-names: "Krzysztof"
+- family-names: "Wąsala"
+  given-names: "Roman"
+- family-names: "Piekarczyk"
+  given-names: "Jan"
+- family-names: "Gabała"
+  given-names: "Elżbieta"
+- family-names: "Gawlak"
+  given-names: "Magdalena"
+- family-names: "Jasiewicz"
+  given-names: "Jarosław"
+- family-names: "Ratajkiewicz"
+  given-names: "Henryk"
+title: "Reflectance spectroscopy and machine learning as a tool for the categorization of twin species based on the example of the Diachrysia genus"
+journal: "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy"
+doi: "10.1016/j.saa.2022.121058"
+url: "https://www.sciencedirect.com/science/article/pii/S1386142522002062"
+volume: 273
+pages: 121058
+year: 2022
+month: 5
