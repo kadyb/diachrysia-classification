@@ -1,5 +1,5 @@
 # Diachrysia classification
-This repository contains the data, code, and results for “*[How spectral properties and machine learning can categorize twin species - based on Diachrysia genus](https://www.researchsquare.com/article/rs-390055/v1)*” article.
+This repository contains the data, code, and results for “*[Reflectance spectroscopy and machine learning as a tool for the categorization of twin species based on the example of the Diachrysia genus](https://www.sciencedirect.com/science/article/pii/S1386142522002062)*” article.
 
 ## Dataset
 There are two datasets in the `data` directory - the first containing legislative information on moths (`Legislative`), the second containing the measured spectra (`Spectra`).
